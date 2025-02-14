@@ -23,3 +23,7 @@ How To Install:
 <div align="center">
   <h3>The icons used in this extension are the property of <a href="https://www.queercraft.net">Queercraft.net</a>. I do not claim ownership of the logos used.</h3>
 </div>
+
+<div align="center">
+  <h4>(If you're looking for the Chromium version of this extension click <a href="https://github.com/BusterBean/QC-SHOUTcast-Player-Chromium-Extension">Here</a>)</h4>
+</div>
