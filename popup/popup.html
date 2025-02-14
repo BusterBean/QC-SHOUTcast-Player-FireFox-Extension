@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Queercraft Radio SHOUTcast Player</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div id="popup-container">
+    <div class="card" id="combined-container">
+      <div id="current-song-container">
+        <span class="underline">Current Song:</span><br>
+        <span id="song-title"></span>
+      </div>
+      <div id="controls-container">
+        <div id="controls-text" class="underline">Media Controls:</div>
+        <div id="button-container">
+          <button id="play">Play</button>
+          <button id="stop" disabled>Stop</button>
+        </div>
+        <div id="volume-container">
+          <div id="volume-text" class="underline">
+            <label for="volume">Volume: <span id="volume-percentage">100%</span></label>
+          </div>
+          <input type="range" id="volume" name="volume" min="0.01" max="1" step="0.01" value="1">
+        </div>
+      </div>
+    </div>
+    <div class="card" id="link-container">
+      <a href="https://www.queercraft.net/radio/" target="_blank">Queercraft Radio</a>
+    </div>
+    <script src="popup.js"></script>
+  </div>
+</body>
+</html>

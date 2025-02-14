@@ -1,0 +1,136 @@
+html, body {
+  background-image: url('images/background.png'); /* Background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black; /* Text color for readability */
+  font-family: 'Inconsolata', monospace; /* Use Inconsolata font */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; /* Full viewport height */
+  display: flex; /* Center the container */
+  justify-content: center;
+  align-items: center;
+}
+
+#popup-container {
+  width: 170px; /* Adjusted width for cards */
+  padding: 10px; /* Padding inside the container */
+  box-sizing: border-box; /* Include padding and border in dimensions */
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Space between cards */
+  border: 3px solid; /* Border size */
+  animation: border-fade 10s infinite; /* Border-fading animation */
+}
+
+.card {
+  padding: 10px; /* Padding inside cards */
+  border-radius: 10px; /* Rounded corners */
+  border: 2.5px solid; /* Border size */
+  animation: border-fade 10s infinite; /* Border-fading animation */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes border-fade {
+  0% { border-color: red; }
+  20% { border-color: orange; }
+  40% { border-color: yellow; }
+  50% { border-color: green; }
+  80% { border-color: blue; }
+  100% { border-color: violet; }
+}
+
+#popup-container * {
+  font-weight: bold; /* Bold all text within the popup container */
+  font-size: 12.5px; /* Ensure consistent font size */
+}
+
+/* Underline specific text */
+.underline {
+  text-decoration: underline;
+}
+
+/* Combined View */
+
+#combined-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between elements */
+}
+
+/* Song Info View */
+
+#current-song-container {
+  text-align: center; /* Center the "Current Song:" text */
+}
+
+#song-title {
+  margin-top: 10px; /* Makes room between */
+  display: block; /* Ensure the song title appears on a new line */
+  text-align: center; /* Center the song title */
+}
+
+/* Controls View */
+
+#controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between buttons and volume control */
+}
+
+#controls-text {
+  font-size: 12.5px; /* Adjust font size if needed */
+  text-align: center; /* Center the text */
+}
+
+/* Button View */
+
+#button-container {
+  display: flex;
+  flex-direction: row; /* Ensure buttons are side by side */
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Space between buttons */
+}
+
+/* Volume View */
+
+#volume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px; /* Space between elements */
+}
+
+#volume-text {
+  display: flex; /* Center the volume text and percentage */
+  justify-content: center; /* Center elements horizontally */
+  gap: 5px; /* Space between elements */
+}
+
+#volume {
+  display: block; /* Display volume slider as block element */
+  width: 100%; /* Full width slider */
+}
+
+/* Link View */
+
+#link-container {
+  text-align: center; /* Center the link horizontally */
+  margin-top: auto; /* Push link to the bottom */
+}
+
+#link-container a {
+  color: blue; /* Link color for readability */
+}
+
+#link-container a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
