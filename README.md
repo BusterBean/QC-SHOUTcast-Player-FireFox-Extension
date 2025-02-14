@@ -5,10 +5,10 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 How To Install:
 
-1. Download the zip file and unzip it to an easy-to-remember location.
-2. In your FireFox-based browser, navigate to the extensions manager.
-3. Enable "Developer mode"
-4. Click "Load unpacked" and select the unzipped folder.
+1. Download the zip file and save it to an easy-to-remember location.
+2. In your FireFox-based browser, navigate to the extensions manager (about:addons).
+3. Click the gear icon.
+4. Click "install-from-file" and select the zipped folder.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 <div align="center">
