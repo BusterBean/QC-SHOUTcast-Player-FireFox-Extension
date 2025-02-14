@@ -12,8 +12,8 @@ How To Install:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cf59b864-fed6-4cad-847f-dad6de316e1e" alt="1" style="margin-right: 10px;">
-  <img src="https://github.com/user-attachments/assets/752ebf33-1c01-4330-8a2e-d418aefc1d2a" alt="2">
+  <img src="https://github.com/user-attachments/assets/de4f7699-f775-46e2-b758-b06b5f63fc9a" alt="1" style="margin-right: 10px;">
+  <img src="https://github.com/user-attachments/assets/699d3445-3cb3-425f-b5e9-74838559e7ca" alt="2">
 </div>
 
 <div align="center">
