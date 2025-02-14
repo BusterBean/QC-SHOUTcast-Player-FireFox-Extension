@@ -5,6 +5,12 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 How To Install:
 
+From Add-ons Page:
+https://addons.mozilla.org/en-US/firefox/addon/queercraft-radio-player/
+
+OR
+
+From Local:
 1. Download the zip file and save it to an easy-to-remember location.
 2. In your FireFox-based browser, navigate to the extensions manager (about:addons).
 3. Click the gear icon.
