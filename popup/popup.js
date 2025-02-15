@@ -55,4 +55,17 @@ browser.storage.local.get(['playing', 'volume', 'songTitle'], (result) => {
   document.getElementById('volume').value = volume;
   updateVolumePercentage(volume);
   updateSongTitle(result.songTitle || 'Unknown');
+  fetchSongTitle(); // Fetch the current song title once on popup load
 });
+
+// Fetch the song title once when the popup is loaded
+function fetchSongTitle() {
+  fetch('http://mc.queercraft.net:8008/currentsong')
+    .then(response => response.text())
+    .then(title => {
+      updateSongTitle(title);
+    })
+    .catch(error => {
+      console.error("Failed to fetch song title:", error);
+    });
+}
