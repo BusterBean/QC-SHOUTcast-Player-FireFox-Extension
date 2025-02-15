@@ -4,6 +4,10 @@ browser.runtime.onInstalled.addListener(() => {
   browser.storage.local.set({ playing: false, volume: 0.32, songTitle: '' });
 }); // Default = 0.32
 
+browser.runtime.onStartup.addListener(() => {
+  browser.storage.local.set({ playing: false });
+});
+
 browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.action === 'play') {
     browser.storage.local.get('volume', (result) => {
