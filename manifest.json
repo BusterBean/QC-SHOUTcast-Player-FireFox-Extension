@@ -3,7 +3,7 @@
   "name": "SHOUTcast Player (Queercraft Radio)",
   "version": "2.0",
   "description": "Plays Audio From Queercraft Radio",
-  "homepage_url": "https://github.com/BusterBean/QC-SHOUTcast-Player-FireFox-Extension",
+  "homepage_url": "https://github.com/BusterBean/QC-SHOUTcast-Player-Firefox-Extension",
   "background": {
     "page": "background.html"
   },
