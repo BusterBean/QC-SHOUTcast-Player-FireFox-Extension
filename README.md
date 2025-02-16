@@ -12,7 +12,7 @@ OR
 
 From Local:
 1. Download the zip file and save it to an easy-to-remember location.
-2. In your FireFox-based browser, navigate to the extensions manager (about:addons).
+2. In your Firefox-based browser, navigate to the extensions manager (about:addons).
 3. Click the gear icon.
 4. Click "install-from-file" and select the zipped folder.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -23,7 +23,7 @@ From Local:
 </div>
 
 <div align="center">
-  <h2>I created this extension to easily listen to the SHOUTcast radio station hosted by <a href="https://www.queercraft.net/radio">Queercraft.net</a> in FireFox-based browsers via browser extension.</h2>
+  <h2>I created this extension to easily listen to the SHOUTcast radio station hosted by <a href="https://www.queercraft.net/radio">Queercraft.net</a> in Firefox-based browsers via browser extension.</h2>
 </div>
 
 <div align="center">
