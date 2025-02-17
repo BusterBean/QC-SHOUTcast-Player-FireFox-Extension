@@ -46,7 +46,7 @@ function updateSongTitle(title) {
 }
 
 function fetchSongTitle() {
-  fetch('http://mc.queercraft.net:8008/currentsong')
+  fetch('https://radio.queercraft.net:443/stream/currentsong')
     .then(response => response.text())
     .then(title => {
       updateSongTitle(title);
